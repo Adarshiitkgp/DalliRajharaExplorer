@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500&family=Roboto+Slab&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar_id{
+    position: fixed
+    background-color: rgb(80, 58, 58)
+    height: 15vh
+    display: flex
+    opacity: 0.88
+    width: 100vw
+    
+}
+#navbar_id_ul_id{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 15vh;
+    background-color:black;
+    color: white;
+    opacity: 0.8;
+}
+#navbar_id_ul_id li{
+    list-style: none;
+    height: 7vh;
+}
+#navbar_id ul li a:hover{
+    background-color: white;
+    color:black;
+    opacity: 0.88;
+    
+}
+#navbar_id_ul_id li a{
+    text-decoration: none;
+    padding: 0px 15px;
+    display: inline-block;
+    padding-top: 10px;
+    color: white;
+    
+    height:7vh;
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 1.4rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+/*navbar ends*/
+#location_logo_id::before{
+    content: "";
+    background-image: url("pexels-katarzyna-modrzejewska-4218507.jpg");
+    
+    
+    position:absolute;
+    
+    height: 100vh;
+    width: 100vw;
+    background-size: 100vw 100vh;
+    z-index: -1;
+    background-repeat: no-repeat ;
+    opacity: 0.89;
+}
+#location_logo_id{
+    height:90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#location_logo_id #visit_us_id{
+    background-color: white;
+    font-size: 4vw;
+    color:black;
+    height: 8vh;
+    width: 39vw;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 0px;
+    border-radius: 20px;
+    font-family:'Times New Roman', Times, serif;
+    padding-bottom: 0px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#location_logo_id a #visit_us_id:hover{
+    background-color:black;
+    color:wheat;
+    border-radius: 10px;
+}
+/*location etc ends*/
+/*history begins*/
+#history_etc .pqr{
+    text-align: center;
+}
+#history_etc div #niyogi_img{
+    text-align: center;
+    
+}
+#history_etc div img{
+    height: 180px;
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+#history_etc div #niyogi{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+#contact_us{
+    background-image: url("IMG1.jpg");
+    background-size: 100vw 70vh;
+    height: 70vh;
+    background-repeat: no-repeat;
+    
+}
+#contact_us h1{
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: 'Roboto Slab', serif;
+    
+}
+#contact_us form{
+    display:flex;
+    color: wheat;
+    flex-direction: column;
+    align-items: center;
+}
+#contact_us form #form_id{
+    width: 70vw;
+    border-radius: 15px;
+    border: 2px solid black;
+
+}
+/*contact us*/
+footer div{
+    background-color: black;
+    color: white;
+    height: 10vh;
+    padding-top: 15px;
+    text-align: center;
+}
+@media screen and (max-width:600px){
+    #location_logo_id #visit_us_id{
+        font-size: 5vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
